@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities{
+    .list{
+        @apply text-[#20484F] hover:text-[#F44335] dark:hover:text-[#F44335] transition-all duration-300 cursor-pointer;
+    }
+}
+
